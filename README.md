@@ -1,6 +1,6 @@
 # Evolving Soft Robots
 
-This repository contains an evolutionary algorithm designed to evolve soft robots. The framework is built using basic NumPy operations, employing Numba decorators for optimization, and integrates <a href="https://www.taichi-lang.org/" style="text-decoration:none; color:inherit; background-color:inherit;">Taichi</a> file
+This repository contains an evolutionary algorithm designed to evolve soft robots. The framework is built using basic NumPy operations, employing Numba decorators for optimization, and integrates <a href="https://www.taichi-lang.org/">Taichi</a> file
 
 <a href="https://www.taichi-lang.org/">Taichi</a> for the simulation part, enhancing computational efficiency.
 
