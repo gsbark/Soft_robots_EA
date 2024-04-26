@@ -3,7 +3,7 @@
 This repository contains an evolutionary algorithm designed to evolve soft robots. The framework is built using basic NumPy operations, employing Numba decorators for optimization, and integrates Taichi for the simulation part, enhancing computational efficiency.
 
 ## Dependencies
-The framework requires the following libraries:
+The following libraries are required:
 | Package               | Version (>=) |
 |-----------------------|--------------|
 | numpy                 | 1.25.2       |
