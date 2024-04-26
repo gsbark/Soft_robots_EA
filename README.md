@@ -13,9 +13,7 @@ The following libraries are required:
 | gmsh (optional)       | 4.11.1       |
 
 ## Evolution process
-The objective of the EA is to maximize the speed of a robot 
-
-For the spring-mass simulator, the following parameters were used: dt = 1e-4 [sec], ground spring Kg = 100.000 [N/m] , gravity g = -9.81 [m/s2], global frequency ω = 2π [Hz], static friction coeficient μs = 0.74 and kinetic friction coeficient μk = 0.57. Dampening is included, where the velocity of each mass at each time step is reduced by a factor of 0.999.The rest length L0 of each spring in the robot is updated according to the following equation: L0 = L0 ∗(a+bsin(ωt+c)) , where a, b, c are spring parameters and ω the global frequency.
+The objective of the EA is to maximize the speed of a robot. The robot motion is simulated using a spring-mass simulator, where the rest length L0 of each spring in the robot is updated according to : L0 = L0 ∗(a+bsin(ωt+c)), where a, b, c are spring parameters and ω the global frequency. A predefined set of material for a,b,c and spring constant k is prescribed as well as a centroid for each one of them. The springs of the robot adopt the material with the closest euclidean distance. An additional material with zero values for all the parameters is included to prescribe voids in the robot structure. In EA algorithm the centroids of the set of materials is iteratively updated to maximize the speed of the robot.
 
 ## Hyperparameters
 The default set of hyperparameters is :
