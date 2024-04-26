@@ -3,13 +3,14 @@
 This repository contains an evolutionary algorithm designed to evolve soft robots. The framework is built using basic NumPy operations, employing Numba decorators for optimization, and integrates Taichi for the simulation part, enhancing computational efficiency.
 
 ## Dependencies
-The framework is built using the following libraries:
+The framework requires the following libraries:
 | Package               | Version (>=) |
 |-----------------------|--------------|
-| numpy                 | 2.0.1        |
-| taichi                | 0.6.1        |
-| numba                 | 0.6.1        |
-
+| numpy                 | 1.25.2       |
+| taichi                | 1.6.0        |
+| numba                 | 0.58.0       |
+| matplotlib            | 3.7.1        |
+| gmsh                  | 4.11.1       |
 
 ## Robot Generation
 
