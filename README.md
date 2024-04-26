@@ -10,7 +10,7 @@ The following libraries are required:
 | taichi                | 1.6.0        |
 | numba                 | 0.58.0       |
 | matplotlib            | 3.7.1        |
-| gmsh (Optional)       | 4.11.1       |
+| gmsh (optional)       | 4.11.1       |
 
 ## Evolution process
 The objective of the EA is to maximize the speed of a robot 
