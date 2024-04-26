@@ -1,12 +1,15 @@
-# Evolutionary Algorithm for evolving soft robots
-This repo incudes an evolutionary algorithm to evolve soft robots. The framework is build with basic numpy operations using numba decorators and taichi for the simulator part for enhanced computational efficiency.
+# Evolving Soft Robots
 
-# Dependecies
-To run the EA the following libraries are required
-1) numpy
-2) numba 
-3) taichi
+This repository contains an evolutionary algorithm designed to evolve soft robots. The framework is built using basic NumPy operations, employing Numba decorators for optimization, and integrates Taichi for the simulation part, enhancing computational efficiency.
 
+## Dependencies
+The framework is built using the following libraries:
+1. NumPy
+2. Numba
+3. Taichi
+4. (Additional dependencies, if any)
+
+## Robot Generation
 
 
 
