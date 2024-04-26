@@ -13,7 +13,7 @@ The following libraries are required:
 | gmsh                  | 4.11.1       |
 
 ## Robot Generation
-The basic geometry consists of a cuboid structure described as (n×cubesx, m×cubesy, l×cubesz). Additionally, there is an option to load a geometry from a .msh file. Two files are provided: one for a human body and another for a bb8-type robot from Star Wars.
+The basic geometry consists of a cuboid structure described as (n×cubesx, m×cubesy, l×cubesz). Additionally, there is an option to load a geometry from a .msh file. Two files are provided: one for a human body and another for a bb8-type robot from Star Wars :) .
 
 
 
