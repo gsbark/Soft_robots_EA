@@ -15,11 +15,10 @@ The following libraries are required:
 ## Evolution process
 The objective of the Evolutionary Algorithm is to optimize the speed of a robot. The robot's motion is simulated using a spring-mass system, wherein the rest length (L0) of each spring is dynamically adjusted based on the formula: L0 = L0 * (a + b * sin(ωt + c)), where 'a', 'b', and 'c' represent spring parameters, and ω denotes the global frequency. Additionally, a predefined set of materials is provided, each characterized by specific values for 'a', 'b', 'c', and the spring constant 'k', along with a centroid defining its properties. During simulation, the springs of the robot select materials based on the closest Euclidean distance. Furthermore, an additional material, with zero values for all parameters, is included to designate voids within the robot structure. Within the EA algorithm, the centroids of the material set are iteratively updated to optimize the robot's speed
 
-## Hyperparameters
-The default set of hyperparameters is :
-
-- population size = 100 
--  
+## Usage
+Run: main.py to run the EA algorithm, 
+Run: test.py to visualize the saved robots
+ 
 
 ## Robot Generation
 The basic geometry consists of a cuboid structure described as (n×cubesx, m×cubesy, l×cubesz). Additionally, there is an option to load a geometry from a .msh file. Two files are provided: one for a human body and another for a bb8-type robot from Star Wars.
