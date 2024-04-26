@@ -28,7 +28,7 @@ The basic geometry consists of a cuboid structure described as (n×cubesx, m×cu
 
 ## Evolved robots 
 
-2x2x2 cuboid structure
+### 2x2x2 cuboid structure
 ![GIF](2x2.gif)
 
 
