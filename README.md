@@ -23,7 +23,7 @@ To visualize the saved robots, execute `test.py`.
  
 
 ## Robot Generation
-The basic geometry consists of a cuboid structure described as $(n \times cubes_x, m \times cubes_y, l \times cubes_z$. Additionally, there is an option to load a geometry from a .msh file. Two files are provided: one for a human body and another for a bb8-type robot from Star Wars :smile:.
+The basic geometry consists of a cuboid structure described as $(n \times cubes_x, m \times cubes_y, l \times cubes_z$. Additionally, there is an option to load a geometry from a .msh file. Two .msh files are provided.
 
 ## Evolved robots 
 
